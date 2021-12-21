@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 		switch(operation) {
 			case "+ (додати)":
-				//прокоментую умову перевірки. я хочу впевнитись, що введено саме два числа та в цьому випадку повернути true. 
 				if ( !(param1 === "") && !(param2 === "") && ( (+param1 + +param2) || (+param1 + +param2) === 0 ) ) {
 					result = Math.round(+param1 + +param2);
 					alert("Увага, MISTER-MATH завжди округлює результат до цілого числа! Результат обчислень: " + result);
