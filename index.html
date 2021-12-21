@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MISTER-MATH</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="form-calc">
+			<form action="#" id="form" class="form__body">
+				<div class="form__info">
+					<h1 class="form__title">MISTER-MATH</h1>
+					<p class="text">Це твій помічник для простих математичних обчислень з двома числами</p>
+				</div>
+				<div class="form__item">
+					<label for="param-1" class="form__label">Перше число:</label>
+					<p class="text">Введи перше число. Використовуй десятичну систему. Якщо потрібно ввести дробове число, використовуй крапку (.) для розділення цілої та дробової частини </p>
+					<input name="param-1" id="param-1" type="text" class="form__input">
+				</div>
+				<div class="form__item">
+					<label for="param-2" class="form__label">Друге число:</label>
+					<p class="text">Введи друге число. Інструкції ті ж =)</p>
+					<input name="param-2" id="param-2" type="text" class="form__input">
+				</div>
+				<div class="form__item">
+					<label for="param-2" class="form__label">Обери математичну дію:</label>
+					<p class="text">Вкажи, що потрібно зробити з вказаними числами</p>
+					<select name="operation" class="operation">
+						<option value="+ (додати)">+ (додати)</option>
+						<option value="- (відняти)">- (відняти)</option>
+						<option value="* (помножити)">* (помножити)</option>
+						<option value="/ (поділити)">/ (поділити)</option>
+					</select>
+				</div>
+				<button type="submit" class="form__button">Обчислити</button>
+			</form>
+		</div>
+	</div>
+	<script src="/js/script.js"></script>
+</body>
+</html> 

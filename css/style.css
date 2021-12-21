@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*Обнуление всех стилей во всех браузерах, дальше задаём всё сами*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #232529;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.form-calc {
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+
+.form__info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form__title {
+  font-size: 44px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.form__item {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: inherit;
+}
+.form__input:focus {
+  -webkit-box-shadow: 0 0 10px #948c8c;
+          box-shadow: 0 0 10px #948c8c;
+}
+
+.operation {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: inherit;
+}
+.operation:focus {
+  -webkit-box-shadow: 0 0 10px #948c8c;
+          box-shadow: 0 0 10px #948c8c;
+}
+
+.form__button {
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #00dc00;
+  -webkit-transition: background-color 0.5s ease 0;
+  transition: background-color 0.5s ease 0;
+}
+.form__button:hover {
+  background-color: #00bd00;
+}
